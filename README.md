@@ -9,6 +9,7 @@ Exploratory data analysis to gain customer insights and churn prediction for a f
 
 [3) Files in the repository](#Files)
 
+[4) Url of the related blogpost](#BlogpostUrl)
 
 ---
 
@@ -80,3 +81,8 @@ There are 2 files in this repository:<br>
 - Sparkify.ipynb: the Jupyter Notebook file that contains all the scripts applied for this project.
 
 The data was provided by the educational institution, Udacity and it was prohibited to share publicly. Consequentially, it cannot be added to the current GitHub repository either. <br>
+
+---
+
+### 4) Url of the related blogpost<a name="BlogpostUrl"></a>
+https://medium.com/@eszterrekasi/do-paying-users-stay-longer-86737ead01b1

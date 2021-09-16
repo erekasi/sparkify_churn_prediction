@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../DA/002_DSND_Term-2/Part EC_Spark/Spark_L3-Data-Wrangling"
+		},
+		{
+			"path": "../../DA/002_DSND_Term-2/Part EC_Spark/Spark_L5-Machine-Learning"
+		}
+	],
+	"settings": {}
+}
