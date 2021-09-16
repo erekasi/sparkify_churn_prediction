@@ -53,7 +53,7 @@ I defined “churn” as an event when a user reaches the page “Cancellation C
 I applied further transformations such as creating dummies from categorical variables, dropping one from each categorical values, counting certain music listening event values and calculating minimum, maximum and average values for event and session length, and calculating the proportion a user visited a particular page (compared to her all page visits).<br>
 
 5. **Data modeling:**<br>
-I used Spark ml to develop and evaluate models. Logistic Regression and Random Forest models were created.
+I used Spark ml to develop and evaluate models. Logistic Regression and Random Forest models were created. I applied grid search and cross-validation to tune the hyperparameters of the model. F1 score was applied to decide which one of the models performs best in line with having a very imbalanced dataset with respect to the label. From a business perspective though recall would the most critical metric.
 <br>
 
 #### Summary of the results
@@ -77,12 +77,12 @@ Based on the random forest model, the most important features for churn predicti
 
 ### 3) Files in the repository<a name="Files"></a>
 There are 2 files in this repository:<br>
-- README.txt: the current document
-- Sparkify.ipynb: the Jupyter Notebook file that contains all the scripts applied for this project.
+- README.md: the current document
+- Sparkify (31).ipynb: the Jupyter Notebook file that contains all the scripts applied for this project.
 
 The data was provided by the educational institution, Udacity and it was prohibited to share publicly. Consequentially, it cannot be added to the current GitHub repository either. <br>
 
 ---
 
 ### 4) Url of the related blogpost<a name="BlogpostUrl"></a>
-https://medium.com/@eszterrekasi/do-paying-users-stay-longer-86737ead01b1
+https://medium.com/@eszterrr/do-paying-users-stay-longer-86737ead01b1
